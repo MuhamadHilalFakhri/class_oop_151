@@ -10,5 +10,3 @@ public:
 		cout << "\nNama = " << nama;
 	}
 };
-
-clas
