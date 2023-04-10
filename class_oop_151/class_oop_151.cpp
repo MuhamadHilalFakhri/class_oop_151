@@ -6,10 +6,11 @@ public:
 	int nim;
 	string nama;
 	void tampil() {
-		cout << "NIM = " << nim;
+		cout << "\nNIM = " << nim;
 		cout << "\nNama = " << nama;
 	}
 };
+
 class MataKuliah {
 private:
 	int sks;
@@ -29,6 +30,25 @@ public:
 	void tampilMK() {
 		cout << "\nJumlah sks = " << sks;
 		cout << "\nKode MK = " << kode;
-		cout << "\nNama MK = " << namaMk;
+		cout << "\nNama MK = " << namaMk << endl;
 	}
   };
+
+int main() {
+	Mahasiswa mhs;
+	MataKuliah mk;
+
+	cout << "\nMasukkan NIM = " ;
+	cin >> mhs.nim;
+
+	cout << "\nMasukkan Nama =" ;
+	cin >> mhs.nama;
+
+	
+	mk.inputMk();
+	mhs.tampil();
+	mk.tampilMK();
+
+
+
+}
