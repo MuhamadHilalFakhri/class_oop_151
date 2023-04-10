@@ -15,4 +15,5 @@ private:
 	int sks;
 	string kode;
 	string nama;
+public:
   };
