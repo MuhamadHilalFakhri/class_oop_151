@@ -10,3 +10,4 @@ public:
 		cout << "\nNama = " << nama;
 	}
 };
+ 
